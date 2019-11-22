@@ -127,6 +127,7 @@ fun InputStream.asClassNode(): ClassNode {
     return node
 }
 
+/** Main class to handle CLI input and launch the downloader */
 class Main : CliktCommand() {
     private val fileNameFormat:
             String by option("-f", "--file-name", help = "format for naming gamepack. default = osrs-\${revision}.jar")
@@ -153,4 +154,5 @@ class Main : CliktCommand() {
     }
 }
 
+/** Main entry point for the program, calls the CliktCommand class to handle CLI input */
 fun main(args: Array<String>) = Main().main(args)
