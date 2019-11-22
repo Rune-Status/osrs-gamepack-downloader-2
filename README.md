@@ -65,7 +65,7 @@ java -jar osrs-gamepack-downloader.jar [OPTIONS]
 
 To just print out the current gamepack revision:
 
-```
+```Bash
 java -jar osrs-gamepack-downloader -r --dry-run
 ```
 
