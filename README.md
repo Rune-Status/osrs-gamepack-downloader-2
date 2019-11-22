@@ -4,17 +4,17 @@ Simple OldSchool RuneScape gamepack downloader written in [Kotlin](https://kotli
 
 What does this program do?
 
-  - Downloads and parses the official OldSchool 
+- Downloads and parses the official OldSchool 
     [jav_config.ws](https://oldschool.runescape.com/jav_config.ws) to get the 
     gamepack URL.
     
-  - Downloads the gamepack from the parsed  URL (codebase + initial_jar)
+- Downloads the gamepack from the parsed  URL (codebase + initial_jar)
   
-  - Analyzes the gamepack's bytecode to determine the actual revision.
+- Analyzes the gamepack's bytecode to determine the actual revision.
   
-  - Writes the gamepack to the provided (or current) directory.
+- Writes the gamepack to the provided (or current) directory.
   
-  - Fixes the dates (created, modified, accessed) to reflect when the
+- Fixes the dates (created, modified, accessed) to reflect when the
   gamepack was built.
  
 ## Prerequisites
